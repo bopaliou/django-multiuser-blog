@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-CSRF_TRUSTED_ORIGINS = ['https://obscure-cod-595gr4rw5g5f4pg4-8000.app.github.dev']
+CSRF_TRUSTED_ORIGINS = ['https://obscure-cod-595gr4rw5g5f4pg4-8000.app.github.dev','https://localhost:8000']
 
 INSTALLED_APPS = [
     "django.contrib.admin",
